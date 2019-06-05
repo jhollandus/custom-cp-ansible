@@ -1,0 +1,9 @@
+---
+- import_playbook: all.yml
+- import_playbook: broker.yml
+- import_playbook: zookeeper.yml
+- import_playbook: schema-registry.yml
+- import_playbook: control-center.yml
+- import_playbook: kafka-connect.yml
+- import_playbook: rest-proxy.yml
+- import_playbook: ksql-server.yml

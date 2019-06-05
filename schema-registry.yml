@@ -1,0 +1,4 @@
+---
+- hosts: broker
+  roles:
+     - confluent.kafka-broker

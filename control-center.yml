@@ -1,0 +1,4 @@
+---
+- hosts: control-center
+  roles:
+     - confluent.control-center

@@ -1,0 +1,4 @@
+---
+- hosts: connect-distributed
+  roles:
+     - confluent.connect-distributed

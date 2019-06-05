@@ -1,0 +1,4 @@
+---
+- hosts: ksql
+  roles:
+     - confluent.ksql
